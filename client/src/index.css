@@ -13,25 +13,18 @@
 
 
 * *::before *::after {
-    box-sizing: border-box;
-  }
-  
-  html body {
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    font-family: raleway;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: var(--color-grey-light);
-  }
+  box-sizing: border-box;
+}
 
-  .home {
-    background-image: url('./Assets/Background.svg');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: var(--color-tertiary);
-  }
+html body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: raleway;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-grey-light);
+}
   
