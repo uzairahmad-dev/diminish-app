@@ -1,9 +1,10 @@
 import React from 'react';
+import HomePage from './container/Homepage';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <h1>Hello from Client!!!</h1>
+      <HomePage />
     </div>
   );
 }
