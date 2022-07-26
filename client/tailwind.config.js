@@ -8,7 +8,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'header-bg': "url('/src/assets/svg/background.svg')"
+        'header-bg': "url('/src/Assets/svg/background.svg')"
       }
     },
     colors: {
@@ -16,6 +16,7 @@ module.exports = {
       "color-secondary": "var(--color-secondary)",
       "color-tertiary": "var(--color-tertiary)",
       "color-grey-light": "var(--color-grey-light)",
+      "color-white": "var(--color-white)",
       "color-green": "var(--color-green)",
       "color-red": "var(--color-red)",
     },
