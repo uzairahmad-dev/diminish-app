@@ -7,9 +7,13 @@
     --color-secondary: #323377;
     --color-tertiary: #D6F2FF;
     --color-grey-light: #e0e0e0;
-    --color-white: #fff;
     --color-green: #04D498;
     --color-red: #F73E2F;
+    --color-red-dark: #B21C10;
+    --color-white: #FDFBF9;
+    --color-black: #28282B;
+    --color-extra-1: #008CFF;
+    --color-extra-2: #007FFF;
 }
 
 
@@ -28,6 +32,4 @@ body {
   padding: 0;
   background-color: var(--color-grey-light);
 }
-
-
   
