@@ -2,7 +2,7 @@ import React from 'react';
 
 import Banner from '../Banner';
 import Navbar from '../Navbar';
-import { ShortenLink } from '../../assets/gif';
+import { ShortenLink } from '../../Assets/gif';
 
 const Home: React.FC = () => {
   return (

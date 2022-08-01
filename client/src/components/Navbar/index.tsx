@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Logo, Close, Menu } from '../../assets/svg';
+import { Logo, Close, Menu } from '../../Assets/svg';
 
 type Props = {}
 

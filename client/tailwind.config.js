@@ -8,7 +8,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'header-bg': "url('/src/assets/svg/background.svg')"
+        'header-bg': "url('/src/Assets/svg/background.svg')"
       },
       fontFamily: {
         'raleway': ['Raleway', 'sans-serif'],
