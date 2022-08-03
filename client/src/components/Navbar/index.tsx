@@ -6,7 +6,7 @@ type Props = {}
 
 const Navbar: React.FC = (props: Props) => {
     let Links =[
-        {name:"Why Diminish?",link:"/"},
+        {name:"About us",link:"/"},
         {name:"Pricing",link:"/"},
         {name:"Create Account",link:"/"}
     ];
@@ -22,7 +22,7 @@ const Navbar: React.FC = (props: Props) => {
             <ul className='flex items-center static z-auto left-0 w-auto transition-all duration-500 ease-in'>
             {
                 Links.map((link)=>(
-                <li key={link.name} className='ml-8 text-xl font-raleway font-light'>
+                <li key={link.name} className='ml-8 text-base font-raleway font-light'>
                     <a href={link.link} className='text-color-grey-light hover:text-color-white transition-all duration-300'>{link.name}</a>
                 </li>
                 ))

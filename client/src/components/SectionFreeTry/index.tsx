@@ -1,12 +1,13 @@
 import React from 'react';
 
-type SectionFreeTryProps = {
-    
+import BuyPlan from '../BuyPlan';
+
+type SectionFreeTryProps = {  
 }
 
-const SectionFreeTry: React.FC<SectionFreeTryProps> = ({  }) => {
+const SectionFreeTry: React.FC<SectionFreeTryProps> = () => {
   return (
-    <div>SectionTry</div>
+    <BuyPlan />
   )
 }
 

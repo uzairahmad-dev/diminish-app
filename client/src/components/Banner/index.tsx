@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ButtonOutlined from '../UI/ButtonOutlined';
-import ButtonPrimary from '../UI/ButtonPrimary';
+import ButtonGradient from '../UI/ButtonGradient';
 
 const Banner: React.FC = () => {
     return (
@@ -9,7 +9,7 @@ const Banner: React.FC = () => {
             <h1 className='text-6xl text-color-primary font-bold font-raleway'>Short Links,<span className='text-color-white'>Big Results</span></h1>
             <p className='mt-1 text-color-secondary text-2xl font-bold font-lusitana'>A URL shortener built with powerful tools to help you grow and protect your brand.</p>
             <div className='flex items-center justify-start mt-3'>
-                <ButtonPrimary handler={() => {}} text='Start For Free' color_1='primary' color_2='extra-1' color_3='primary' />
+                <ButtonGradient handler={() => {}} text='Start For Free' primary />
                 <ButtonOutlined handler={() => {}} text='Go Premium' />
             </div>
         </div>

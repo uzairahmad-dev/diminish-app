@@ -20,12 +20,14 @@ module.exports = {
       "color-secondary": "var(--color-secondary)",
       "color-tertiary": "var(--color-tertiary)",
       "color-grey-light": "var(--color-grey-light)",
-      "color-green": "var(--color-green)",
-      "color-red": "var(--color-red)",
       "color-white": "var(--color-white)",
       "color-black": "var(--color-black)",
       "color-extra-1": "var(--color-extra-1)",
-      "color-extra-2": "var(--color-extra-2)"
+      "color-extra-2": "var(--color-extra-2)",
+      "color-green": "var(--color-green)",
+      "color-green-1": "var(--color-green-1)",
+      "color-red": "var(--color-red)",
+      "color-red-1": "var(--color-red-1)"
     },
   },
   plugins: [],
