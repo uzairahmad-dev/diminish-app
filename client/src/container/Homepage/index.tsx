@@ -1,18 +1,19 @@
 import React from 'react';
+
 import Header from '../../components/Header';
-import BuyPlan from '../../components/BuyPlan';
-import SectionAbout from '../../components/SectionAbout';
+import SectionFreeTry from '../../components/SectionFreeTry';
+import SectionMarketing from '../../components/SectionMarketing';
 import SectionPricing from '../../components/SectionPricing';
-import SectionFooter from '../../components/SectionFooter';
+import Footer from '../../components/Footer';
 
 const HomePage: React.FC = () => {
   return (
     <div className="">
       <Header />
-      <BuyPlan />
-      <SectionAbout />
+      <SectionFreeTry />
+      <SectionMarketing />
       <SectionPricing />
-      <SectionFooter />
+      <Footer />
     </div>
   );
 }

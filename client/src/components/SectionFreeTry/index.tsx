@@ -1,13 +1,17 @@
-import React from 'react';
+import React from "react";
 
-type SectionFreeTryProps = {
-    
-}
+import FreeForm from "../FreeForm";
+import BuyPlan from "../BuyPlan";
 
-const SectionFreeTry: React.FC<SectionFreeTryProps> = ({  }) => {
+type SectionFreeTryProps = {};
+
+const SectionFreeTry: React.FC<SectionFreeTryProps> = () => {
   return (
-    <div>SectionTry</div>
-  )
-}
+    <>
+      <FreeForm />
+      <BuyPlan />
+    </>
+  );
+};
 
 export default SectionFreeTry;
