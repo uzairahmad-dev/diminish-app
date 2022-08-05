@@ -1,14 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import BuyPlan from '../BuyPlan';
+import FreeForm from "../FreeForm";
+import BuyPlan from "../BuyPlan";
 
-type SectionFreeTryProps = {  
-}
+type SectionFreeTryProps = {};
 
 const SectionFreeTry: React.FC<SectionFreeTryProps> = () => {
   return (
-    <BuyPlan />
-  )
-}
+    <>
+      <FreeForm />
+      <BuyPlan />
+    </>
+  );
+};
 
 export default SectionFreeTry;

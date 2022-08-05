@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="">
       <Header />
-      {/* <SectionFreeTry /> */}
+      <SectionFreeTry />
       <SectionMarketing />
       <SectionPricing />
       <Footer />

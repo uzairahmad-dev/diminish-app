@@ -29,6 +29,15 @@ module.exports = {
       "color-red": "var(--color-red)",
       "color-red-1": "var(--color-red-1)"
     },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+      'in_md': {'max': '768px'},
+      'in_sm': {'max': '640px'} 
+    },
   },
   plugins: [],
 };
